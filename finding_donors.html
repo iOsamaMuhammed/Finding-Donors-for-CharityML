@@ -14214,15 +14214,14 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>The final model is chosen to be Logistic Regression. Logistic regression uses and updates weights as well as a classification function, which is commonly a sigmoid function, to learn. The sigmoid function is a mathematical formula for converting anticipated values into probabilities.</p>
+<p>The final model is chosen to be Logistic Regression. It is a statistical mathematical model for predicting the probability of an event occurring given some prior knowledge.A logistic function is used in logistic regression to find a model that matches the data points. It can be an alternative for the linear regression.</p>
 <p><strong>Steps of Logistic Regression</strong></p>
-<ul>
-<li>Data Pre-processing through multiplying featurs with weights and adding them together</li>
-<li>Sigmoid function is to be applied on the result for previous step</li>
-<li>The result of the function is to checked, if it is large enough the classifier would classify it to a label.</li>
-<li>Weights are to be updated during training using a feedback from the comparison of predictions and true labels.</li>
-<li>To obtain the final prediction, it applies the weights, multiplication, summation, and hypothesis function to the testing data.</li>
-</ul>
+<ol>
+<li>The model attempts to predict data by generating a linear – straight line – equation to model or predicting future data points.</li>
+<li>The model employs test data to obtain the coefficients and the natural logarithm function to find the connection between the variables.</li>
+<li>Using these coefficients in the logistic equation, the function can then predict future events.</li>
+<li>To determine the probability, logistic regression employs the idea of odds ratios. This is defined as the ratio of the probability of an event occurrence vs the probability of it not occurring. For example a sports team's likelihood of winning a certain match, for example, may be 0.75. That team's chances of losing would be 1 – 0.75 = 0.25. That team's chances of winning are 0.75/0.25 = 3. This is because the team's chances of victory are 3 to 1.</li>
+</ol>
 
 </div>
 </div>
@@ -14629,7 +14628,7 @@ F-score on testing data: 0.5882
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!!</span>jupyter nbconvert *.ipynb
@@ -14645,14 +14644,14 @@ F-score on testing data: 0.5882
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[99]:</div>
+    <div class="prompt output_prompt">Out[1]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>[&#39;[NbConvertApp] Converting notebook finding_donors.ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 502127 bytes to finding_donors.html&#39;]</pre>
+ &#39;[NbConvertApp] Writing 502411 bytes to finding_donors.html&#39;]</pre>
 </div>
 
 </div>
